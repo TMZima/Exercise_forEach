@@ -27,3 +27,9 @@ const movies = [
   },
   { title: "Ex Machina", director: "Alex Garland", yearReleased: 2014 },
 ];
+
+movies.forEach((movie) => {
+  console.log(
+    `${movie.title} (${movie.yearReleased}) directed by ${movie.director}`
+  );
+});
